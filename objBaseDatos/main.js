@@ -1,4 +1,3 @@
-import { probando } from "./probando.js";
-import { calculators } from "./calculators.js";
+import { probando } from "objBaseDatos/probando.js";
 import { validator } from "./validador.js";
-import { baseDatos } from "./baseDatos.js";
+import { baseDatos } from "./objBaseDatos/baseDatos.js";
