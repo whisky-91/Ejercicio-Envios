@@ -1,0 +1,14 @@
+Crea una aplicación que calcule gastos de transporte: terrestres y marítimos.
+Para la peninsula iberica.
+Hay que transportar una mercancia desde pto A al pto B.
+Desde A hasta B hay una distancia.
+
+La aplicacion me tiene que decir:
+
+	- transporte se va a hacer por tierra, por mar, ambas
+	- coste del transporte terr, mar o mixto
+	- Limitante: Un sólo transporte terrestre puede transportar hasta un max de 5 toneladas
+	
+* Crear un repositorio para el grupo
+
+Deathline - Mañana por la mañana.
