@@ -1,3 +1,7 @@
-export function calcDistanceTruck(num) {
-  return 0.7 * num;
+/**
+ * Represent a calcDistanceTruck
+ * @param {number} d - The distance
+ */
+export function calcDistanceTruck(d) {
+  return 0.7 * d;
 }
