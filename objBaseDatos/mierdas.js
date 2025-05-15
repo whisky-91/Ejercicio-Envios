@@ -13,9 +13,8 @@ for (const k in ciudades) {
   if (Object.prototype.hasOwnProperty.call(ciudades, k)) {
     let ciudadN = ciudades[k];
     console.log({ ciudadN });
-
     
   }
 
-  let capital = ciudadN.
+ let capital = ciudadN.
 }
