@@ -1,10 +1,4 @@
-type Ciudad = {
-  nombreCiudad: string;
-  tienePuerto: boolean;
-};
-
-// Objeto ciudades actualizado
-const ciudades: { [clave: string]: Ciudad } = {
+const ciudades = {
   ciudad1: { nombreCiudad: "Vitoria-Gasteiz", tienePuerto: false },
   ciudad2: { nombreCiudad: "Albacete", tienePuerto: false },
   ciudad3: { nombreCiudad: "Alicante", tienePuerto: false },
@@ -19,12 +13,12 @@ const ciudades: { [clave: string]: Ciudad } = {
   ciudad12: { nombreCiudad: "Castellón de la Plana", tienePuerto: false },
   ciudad13: { nombreCiudad: "Ciudad Real", tienePuerto: false },
   ciudad14: { nombreCiudad: "Córdoba", tienePuerto: false },
-  ciudad15: { nombreCiudad: "A Coruña", tienePuerto: true },
+  ciudad15: { nombreCiudad: "A Coruña", tienePuerto: true }, // Oeste
   ciudad16: { nombreCiudad: "Cuenca", tienePuerto: false },
   ciudad17: { nombreCiudad: "Girona", tienePuerto: false },
   ciudad18: { nombreCiudad: "Granada", tienePuerto: false },
   ciudad19: { nombreCiudad: "Guadalajara", tienePuerto: false },
-  ciudad20: { nombreCiudad: "Huelva", tienePuerto: true }, // Oeste
+  ciudad20: { nombreCiudad: "Huelva", tienePuerto: true }, // Puerto extra para recibir de las islas canarias
   ciudad21: { nombreCiudad: "Huesca", tienePuerto: false },
   ciudad22: { nombreCiudad: "Jaén", tienePuerto: false },
   ciudad23: { nombreCiudad: "León", tienePuerto: false },
