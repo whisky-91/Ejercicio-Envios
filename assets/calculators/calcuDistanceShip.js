@@ -1,3 +1,7 @@
-export function calcDistanceShip(num) {
-  return 0.6 * num;
+/**
+ * Represent a calcDistanceShip
+ * @param {number} d - The distance
+ */
+export function calcDistanceShip(d) {
+  return 0.6 * d;
 }
