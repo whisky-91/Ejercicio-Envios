@@ -77,7 +77,10 @@ const ciudades = {
     tienePuerto: false,
     distanciaAMadrid: 447,
   },
-  ciudad6: { nombreCiudad: "Ávila", tienePuerto: false, distanciaAMadrid: 113 },
+  ciudad6: { 
+    nombreCiudad: "Ávila", 
+    tienePuerto: false, 
+    distanciaAMadrid: 113 },
   ciudad7: {
     nombreCiudad: "Badajoz",
     tienePuerto: false,
